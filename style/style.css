@@ -694,6 +694,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #ffffff;
+  white-space: nowrap;
 }
 .mail,
 .tell {
@@ -762,7 +763,7 @@ ul {
 
 /* subsribe-conteiner */
 .subsribe-conteiner {
-  margin-left: 123px;
+  margin-left: 108px;
 }
 
 .subsribe-title {
