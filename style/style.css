@@ -497,6 +497,7 @@ ul {
 .client-list {
   display: flex;
   justify-content: space-between;
+
   margin-top: 50px;
 }
 
@@ -761,7 +762,7 @@ ul {
 
 /* subsribe-conteiner */
 .subsribe-conteiner {
-  margin-left: 93px;
+  margin-left: 123px;
 }
 
 .subsribe-title {
