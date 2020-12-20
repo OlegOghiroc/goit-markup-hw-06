@@ -974,7 +974,7 @@ ul {
 .policy-link {
   text-decoration: underline;
   color: var(--accent-color);
-  margin-left: 5px;
+  /* margin-left: 5px; */
 }
 
 .checkbox-label {
