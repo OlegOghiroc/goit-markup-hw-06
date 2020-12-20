@@ -381,12 +381,22 @@
           <form class="modal-form">
             <div class="form-field">
               <label for="name">Имя</label>
-              <input class="input" type="text" name="name" id="name">
+              <div class="input-vraper">
+                <input class="input" type="text" name="name" id="name">
+                <svg class="input-icon">
+                  <use href="./Images/icons/symbol-defs.svg#person-icon"></use>
+                </svg>
+              </div>
             </div>
             
             <div class="form-field">
               <label class="label" for="tel">Телефон</label>
-              <input class="input" type="tel" name="tel" id="tel">
+              <div class="input-vraper">
+                <input class="input" type="tel" name="tel" id="tel">
+                <svg class="input-icon">
+                  <use href="./Images/icons/symbol-defs.svg#phone-icon"></use>
+                </svg>
+              </div>
             </div>
             
             <div class="form-field">
@@ -405,8 +415,8 @@
             </div>
 
             <div class="checkbox-policy">
-              <input class="checkbox-input" type="checkbox" name="policy" id="policy">
-              <label class="checkbox-label" for="policy">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
+              <input class="checkbox-input visually-hidden" type="checkbox" name="policy" id="policy">
+              <label class="checkbox-label" for="policy">Соглашаюсь с рассылкой и принимаю <a class="policy-link" href="#">Условия договора</a></label>
             </div>
 
             <button class="submit-button" type="submit">Отправить</button>
